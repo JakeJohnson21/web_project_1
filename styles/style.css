@@ -7,7 +7,7 @@
   margin: 0 auto;
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: "Helvetica Neue", Arial, sans-serif;
-  padding: 0px;
+  padding: 0;
 }
 
 .header {
@@ -287,9 +287,9 @@ the modifiers to make the dark theme are below*/
 .footer__columns {
   display: flex;
   justify-content: space-between;
-  margin: 60px auto 40px auto;
+  margin: 60px 64px 40px 64px;
   min-height: 2px;
-  width: 90%;
+  min-height: 250px;
 }
 
 .footer__column_content_copyright {
