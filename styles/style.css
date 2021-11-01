@@ -7,6 +7,7 @@
   margin: 0 auto;
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: "Helvetica Neue", Arial, sans-serif;
+<<<<<<< HEAD
 }
 
 div,
@@ -20,6 +21,8 @@ h6,
 ul,
 li {
   border: 1px solid red;
+=======
+>>>>>>> 284815f466c2c8342ee834680432a587a8abd669
 }
 
 .header {
@@ -117,6 +120,7 @@ li {
   font-weight: normal;
   line-height: 34px;
   width: 80%;
+  margin-bottom: -30px;
 }
 .two-columns__paragraph:nth-last-child(1) {
   margin-bottom: 0px;
@@ -320,7 +324,11 @@ the modifiers to make the dark theme are below*/
 }
 
 .logo_place_footer {
+<<<<<<< HEAD
   max-width: 183px;
+=======
+  width: 183px;
+>>>>>>> 284815f466c2c8342ee834680432a587a8abd669
   height: 35px;
 }
 
