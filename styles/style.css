@@ -9,7 +9,20 @@
   font-family: "Helvetica Neue", Arial, sans-serif;
   padding: 0;
 }
-
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+img,
+section {
+  border: 1px solid red;
+}
 .header {
   background-color: #f2f2f2;
   display: flex;
@@ -68,7 +81,7 @@
   z-index: 1;
 }
 
-.header__square-pic {
+.header__square {
   background-color: #2f80ed;
   height: 568px;
   position: absolute;
@@ -119,7 +132,7 @@
   line-height: 34px;
 }
 
-.section__title {
+.section-title {
   font-size: 60px;
   font-weight: bold;
   line-height: 69px;
@@ -130,7 +143,7 @@
   z-index: 1;
 }
 
-.section__subtitle {
+.section-subtitle {
   font-size: 24px;
   font-weight: normal;
   line-height: 34px;
@@ -149,6 +162,7 @@
   margin: auto auto 100px auto;
   padding: 0px;
   width: 1100px;
+  position: relative;
 }
 
 .table__cell {
@@ -229,33 +243,20 @@
 /*section / shape */
 .kaufman {
   background-color: #1f1f1f;
-  margin: auto;
-  min-height: 750px;
   overflow: hidden;
   position: relative;
 }
 
-.kaufman__triangle {
-  background-image: url(/images/kaufman-triangle.svg);
-  background-repeat: no-repeat;
-  height: 660px;
-  position: absolute;
-  right: -124px;
-  top: 0;
-  width: 636px;
-  z-index: 0;
-}
 /*Table blocks and elements from Facts and figures..
 the modifiers to make the dark theme are below*/
+.table_theme_dark {
+  z-index: 1;
+}
 
 .table__cell_theme_dark {
   color: white;
   margin-top: 80px;
   width: 200px;
-}
-
-.table__theme_dark {
-  list-style-type: none;
 }
 
 .table__heading_theme_dark {
@@ -270,12 +271,20 @@ the modifiers to make the dark theme are below*/
 
 .section-title_theme_dark {
   color: white;
-  margin: 90px auto auto auto;
+  margin-top: 90px;
 }
 
 .section-subtitle_theme_dark {
   color: white;
   margin: 20px auto 0 auto;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  right: -124px;
+  top: 0px;
+  height: 636px;
+  z-index: 0;
 }
 
 /**/
@@ -305,6 +314,7 @@ the modifiers to make the dark theme are below*/
 
 .logo_place_footer {
   width: 183px;
+  height: 35;
 }
 
 .footer__author {
@@ -322,10 +332,6 @@ the modifiers to make the dark theme are below*/
   line-height: 30px;
   margin: 0px auto 5px auto;
   text-decoration: none;
-}
-
-.footer__column-link_margin_bottom {
-  margin-bottom: 10px;
 }
 
 .footer__column_content_about {
@@ -349,7 +355,6 @@ the modifiers to make the dark theme are below*/
 .footer__social-icon {
   height: 16px;
   margin: 8px 8px 0 0px;
-  width: 16px;
 }
 
 .footer__column_content_social {

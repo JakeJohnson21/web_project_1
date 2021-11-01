@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learning how to learn</title>
     <link rel="stylesheet" href="styles/style.css" />
-    <link rel="stylesheet" href="/styles/normalize.css" />
+    <link rel="stylesheet" href="styles/normalize.css" />
   </head>
   <body>
     <div class="page">
@@ -20,14 +20,12 @@
           apply to your daily life.
           <a href="#" class="header__link">Learn more →</a>
         </p>
-        <div class="header__main-illustration">
-          <img
-            src="images/header-image.png"
-            alt="Woman on rock looking."
-            class="header__main-illustration"
-          />
-        </div>
-        <div class="header__square-pic"></div>
+        <img
+          src="images/header-image.png"
+          alt="Woman on rock looking."
+          class="header__main-illustration"
+        />
+        <div class="header__square"></div>
       </header>
       <main class="content">
         <section class="description">
@@ -69,8 +67,8 @@
         </section>
 
         <section class="digits">
-          <h2 class="section__title">Facts and Figures</h2>
-          <h3 class="section__subtitle">On learning and the brain</h3>
+          <h2 class="section-title">Facts and Figures</h2>
+          <h3 class="section-subtitle">On learning and the brain</h3>
 
           <ul class="table">
             <li class="table__cell">
@@ -142,14 +140,14 @@
         </section>
 
         <section class="kaufman">
-          <h2 class="section__title section-title_theme_dark">
+          <h2 class="section-title section-title_theme_dark">
             Ten principles of rapid skill acquisition
           </h2>
-          <h3 class="section__subtitle section-subtitle_theme_dark">
+          <h3 class="section-subtitle section-subtitle_theme_dark">
             by Josh Kaufman
           </h3>
 
-          <ul class="table__theme_dark table">
+          <ul class="table_theme_dark table">
             <li class="table__cell table__cell_theme_dark">
               <h4 class="table__heading table__heading_theme_dark">1</h4>
               <p class="table__text table__text_theme_dark">
@@ -211,7 +209,11 @@
               </p>
             </li>
           </ul>
-          <span class="kaufman__triangle"></span>
+          <img
+            class="kaufman__triangle"
+            src="images/kaufman-triangle.svg"
+            alt="A big blue triangle, over which Josh Kaufman claims ownership"
+          />
         </section>
       </main>
 
@@ -219,7 +221,7 @@
         <div class="footer__columns">
           <div class="footer__column_content_copyright">
             <img
-              src="/images/logo_place_footer.png"
+              src="images/logo_place_footer.png"
               alt="Practicum logo"
               class="logo logo_place_footer"
             />
@@ -229,23 +231,17 @@
           <ul class="footer__column_content_about">
             <li class="footer__column-heading">About Practicum by Yandex</li>
             <li>
-              <a
-                href="#"
-                class="footer__column-link footer__column-link_margin_bottom"
+              <a href="#" class="footer__column-link"
                 ><p class="footer__list">Home Page</p></a
               >
             </li>
             <li>
-              <a
-                href="#"
-                class="footer__column-link footer__column-link_margin_bottom"
+              <a href="#" class="footer__column-link"
                 ><p class="footer__list">Mission</p></a
               >
             </li>
             <li>
-              <a
-                href="#"
-                class="footer__column-link footer__column-link_margin_bottom"
+              <a href="#" class="footer__column-link"
                 ><p class="footer__list">Professions</p></a
               >
             </li>
@@ -255,7 +251,7 @@
             <li>
               <a href="#" class="footer__column-link">
                 <img
-                  src="/images/facebook_white.svg"
+                  src="images/facebook_white.svg"
                   alt="facebook logo"
                   class="footer__social-icon"
                 />
@@ -265,7 +261,7 @@
             <li>
               <a href="#" class="footer__column-link">
                 <img
-                  src="/images/instagram_white.svg"
+                  src="images/instagram_white.svg"
                   alt="Instagram logo"
                   class="footer__social-icon"
                 />
