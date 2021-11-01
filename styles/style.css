@@ -7,22 +7,8 @@
   margin: 0 auto;
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: "Helvetica Neue", Arial, sans-serif;
-  padding: 0;
 }
-div,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-li,
-img,
-section {
-  border: 1px solid red;
-}
+
 .header {
   background-color: #f2f2f2;
   display: flex;
@@ -94,8 +80,7 @@ section {
 .description {
   display: flex;
   justify-content: center;
-  margin-bottom: 100px;
-  margin-top: 100px;
+  margin: 100px auto;
 }
 
 .two-columns {
@@ -119,6 +104,7 @@ section {
   font-weight: normal;
   line-height: 34px;
   width: 80%;
+  margin-bottom: -30px;
 }
 
 .two-columns__paragraph {
@@ -130,6 +116,10 @@ section {
   font-size: 24px;
   font-weight: bold;
   line-height: 34px;
+}
+
+.digits {
+  margin: 100px auto;
 }
 
 .section-title {
@@ -159,7 +149,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: auto auto 100px auto;
+  margin: auto;
   padding: 0px;
   width: 1100px;
   position: relative;
@@ -245,6 +235,7 @@ section {
   background-color: #1f1f1f;
   overflow: hidden;
   position: relative;
+  padding-bottom: 90px;
 }
 
 /*Table blocks and elements from Facts and figures..
@@ -299,9 +290,10 @@ the modifiers to make the dark theme are below*/
 .footer__columns {
   display: flex;
   justify-content: space-between;
-  margin: 60px 64px 40px 64px;
+  margin: 60px auto 40px auto;
   min-height: 2px;
   min-height: 250px;
+  width: 90%;
 }
 
 .footer__column_content_copyright {
@@ -314,7 +306,7 @@ the modifiers to make the dark theme are below*/
 
 .logo_place_footer {
   width: 183px;
-  height: 35;
+  height: 35px;
 }
 
 .footer__author {
