@@ -7,22 +7,6 @@
   margin: 0 auto;
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: "Helvetica Neue", Arial, sans-serif;
-<<<<<<< HEAD
-}
-
-div,
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-ul,
-li {
-  border: 1px solid red;
-=======
->>>>>>> 284815f466c2c8342ee834680432a587a8abd669
 }
 
 .header {
@@ -41,12 +25,17 @@ li {
 }
 
 .logo_place_header {
+  background-image: url(/images/logo_place_header.png);
+  background-repeat: no-repeat;
+  background-size: contain;
   left: 64px;
   position: absolute;
   top: 30px;
 }
 
 .header__title {
+  margin: 0;
+  padding: 0;
   align-items: center;
   display: flex;
   font-size: 102px;
@@ -58,6 +47,8 @@ li {
 }
 
 .header__subtitle {
+  margin: 0;
+  padding: 0;
   bottom: 30px;
   font-size: 18px;
   font-weight: normal;
@@ -120,7 +111,6 @@ li {
   font-weight: normal;
   line-height: 34px;
   width: 80%;
-  margin-bottom: -30px;
 }
 .two-columns__paragraph:nth-last-child(1) {
   margin-bottom: 0px;
@@ -185,10 +175,10 @@ li {
 .table__heading {
   font-size: 24px;
   font-weight: bold;
-  line-height: 1.15px;
+  line-height: 1.15;
   margin-bottom: 20px;
   margin: 0;
-  padding: 10px 0;
+  padding: 0;
   position: relative;
 }
 
@@ -201,8 +191,9 @@ li {
 }
 
 .feynman {
+  padding-top: 100px;
   background-color: #f2f2f2;
-  height: 790px;
+  min-height: 790px;
   position: relative;
 }
 
@@ -211,7 +202,6 @@ li {
   font-weight: bold;
   line-height: 1.15;
   margin: auto;
-  padding-top: 100px;
   position: relative;
   text-align: center;
   max-width: 775px;
@@ -222,7 +212,7 @@ li {
   font-size: 36px;
   font-weight: normal;
   line-height: 51px;
-  margin: 70px auto;
+  margin-top: 70px;
   position: relative;
   text-align: center;
   z-index: 1;
@@ -241,10 +231,10 @@ li {
 
 .feynman__image {
   bottom: 0;
-  height: 637px;
+  max-height: 637px;
   left: 0;
   position: absolute;
-  width: 867px;
+  max-width: 867px;
   z-index: 0;
 }
 
@@ -254,7 +244,7 @@ li {
   background-color: #1f1f1f;
   overflow: hidden;
   position: relative;
-  padding-bottom: 90px;
+  padding: 90px 0;
 }
 
 /*Table blocks and elements from Facts and figures..
@@ -281,7 +271,6 @@ the modifiers to make the dark theme are below*/
 
 .section-title_theme_dark {
   color: white;
-  margin-top: 90px;
 }
 
 .section-subtitle_theme_dark {
@@ -290,32 +279,32 @@ the modifiers to make the dark theme are below*/
 }
 
 .kaufman__triangle {
+  background-image: url(/images/kaufman-triangle.svg);
+  background-repeat: no-repeat;
+  min-width: 660px;
+  min-height: 636px;
   position: absolute;
   right: -124px;
-  top: 0px;
-  height: 636px;
-  z-index: 0;
+  top: 0;
 }
-
 /**/
 .footer {
   background-color: #1f1f1f;
   color: white;
-  margin: auto;
   min-height: 350px;
-  overflow: hidden;
+  padding-top: 60px;
 }
 
 .footer__columns {
   display: flex;
   justify-content: space-between;
-  margin: 60px auto 40px auto;
-  min-height: 2px;
+  margin: 0 auto;
+
   min-height: 250px;
   width: 90%;
 }
 
-.footer__column_content_copyright {
+.footer__columns_content_copyright {
   display: flex;
   flex-basis: 711px;
   flex-direction: column;
@@ -324,12 +313,8 @@ the modifiers to make the dark theme are below*/
 }
 
 .logo_place_footer {
-<<<<<<< HEAD
   max-width: 183px;
-=======
-  width: 183px;
->>>>>>> 284815f466c2c8342ee834680432a587a8abd669
-  height: 35px;
+  max-height: 35px;
 }
 
 .footer__author {
@@ -345,18 +330,17 @@ the modifiers to make the dark theme are below*/
   font-size: 18px;
   font-weight: normal;
   line-height: 30px;
-  margin: 0px auto 5px auto;
+  margin: 0px auto 0px auto;
   text-decoration: none;
 }
 
-.footer__column_content_about {
-  list-style-type: none;
-  margin: 0 auto;
+.footer__columns_content_about {
   padding-left: 0px;
 }
 
 .footer__list {
-  margin: 0;
+  list-style-type: none;
+  padding: 0px;
 }
 
 .footer__column-heading {
@@ -372,8 +356,6 @@ the modifiers to make the dark theme are below*/
   margin: 8px 8px 0 0px;
 }
 
-.footer__column_content_social {
-  list-style-type: none;
-  margin: 0px;
+.footer__columns_content_social {
   padding: 0px;
 }
