@@ -8,7 +8,20 @@
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
-
+/* p,
+h1,
+h2.h3,
+h4,
+h5,
+h6,
+div,
+section,
+footer,
+header,
+ul,
+li {
+  border: 1px solid red;
+} */
 .header {
   background-color: #f2f2f2;
   display: flex;
@@ -19,18 +32,15 @@
 }
 
 .logo {
-  min-height: 31px;
-  min-width: 154px;
   z-index: 2;
 }
 
 .logo_place_header {
-  background-image: url(/images/logo_place_header.png);
-  background-repeat: no-repeat;
-  background-size: contain;
   left: 64px;
   position: absolute;
   top: 30px;
+  max-width: 154px;
+  max-height: 31px;
 }
 
 .header__title {
@@ -135,7 +145,8 @@
   font-size: 60px;
   font-weight: bold;
   line-height: 69px;
-  margin: 20px auto 20px auto;
+  margin: 0 auto 20px auto;
+
   position: relative;
   text-align: center;
   width: 60%;
@@ -212,7 +223,7 @@
   font-size: 36px;
   font-weight: normal;
   line-height: 51px;
-  margin-top: 70px;
+  margin: 70px 0 0 0;
   position: relative;
   text-align: center;
   z-index: 1;
@@ -227,6 +238,7 @@
   right: 48px;
   text-decoration: none;
   top: 50%;
+  z-index: 2;
 }
 
 .feynman__image {
@@ -260,7 +272,6 @@ the modifiers to make the dark theme are below*/
 }
 
 .table__heading_theme_dark {
-  margin-bottom: 20px;
   color: white;
 }
 
@@ -271,6 +282,7 @@ the modifiers to make the dark theme are below*/
 
 .section-title_theme_dark {
   color: white;
+  margin-top: 20px;
 }
 
 .section-subtitle_theme_dark {
@@ -279,8 +291,6 @@ the modifiers to make the dark theme are below*/
 }
 
 .kaufman__triangle {
-  background-image: url(/images/kaufman-triangle.svg);
-  background-repeat: no-repeat;
   min-width: 660px;
   min-height: 636px;
   position: absolute;
@@ -293,18 +303,24 @@ the modifiers to make the dark theme are below*/
   color: white;
   min-height: 350px;
   padding-top: 60px;
+  padding-bottom: bottom;
+  box-sizing: border-box;
 }
 
 .footer__columns {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-
   min-height: 250px;
   width: 90%;
 }
 
-.footer__columns_content_copyright {
+.footer__column {
+  margin: 0;
+  padding: 0;
+}
+
+.footer__column_content_copyright {
   display: flex;
   flex-basis: 711px;
   flex-direction: column;
@@ -334,7 +350,7 @@ the modifiers to make the dark theme are below*/
   text-decoration: none;
 }
 
-.footer__columns_content_about {
+.footer__column_content_about {
   padding-left: 0px;
 }
 
@@ -356,6 +372,6 @@ the modifiers to make the dark theme are below*/
   margin: 8px 8px 0 0px;
 }
 
-.footer__columns_content_social {
+.footer__column_content_social {
   padding: 0px;
 }
