@@ -8,7 +8,7 @@
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
-/* p,
+p,
 h1,
 h2.h3,
 h4,
@@ -21,7 +21,7 @@ header,
 ul,
 li {
   border: 1px solid red;
-} */
+}
 .header {
   background-color: #f2f2f2;
   display: flex;
@@ -302,8 +302,7 @@ the modifiers to make the dark theme are below*/
   background-color: #1f1f1f;
   color: white;
   min-height: 350px;
-  padding-top: 60px;
-  padding-bottom: bottom;
+  padding: 60px 0 40px 0;
   box-sizing: border-box;
 }
 
