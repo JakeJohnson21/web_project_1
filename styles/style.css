@@ -187,8 +187,7 @@ li {
   font-size: 24px;
   font-weight: bold;
   line-height: 1.15;
-  margin-bottom: 20px;
-  margin: 0;
+  margin: 0 0 20px 0;
   padding: 0;
   position: relative;
 }
@@ -282,7 +281,6 @@ the modifiers to make the dark theme are below*/
 
 .section-title_theme_dark {
   color: white;
-  margin-top: 20px;
 }
 
 .section-subtitle_theme_dark {
