@@ -8,7 +8,7 @@
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
-/* p,
+p,
 h1,
 h2.h3,
 h4,
@@ -21,7 +21,7 @@ header,
 ul,
 li {
   border: 1px solid red;
-} */
+}
 .header {
   background-color: #f2f2f2;
   display: flex;
@@ -29,6 +29,7 @@ li {
   max-height: 756px;
   min-height: 600px;
   position: relative;
+  overflow-x: hidden;
 }
 
 .logo {
@@ -92,6 +93,20 @@ li {
   top: 64px;
   width: 568px;
   z-index: 0;
+  transform: rotate(-15deg);
+}
+
+.rotation {
+  animation: rotation infinite linear 20s;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .description {
@@ -135,6 +150,59 @@ li {
   font-size: 24px;
   font-weight: bold;
   line-height: 34px;
+}
+
+.techniques {
+  margin: 100px auto;
+}
+
+.section-title {
+  line-height: 1.15;
+}
+
+.section-subtitle {
+}
+
+.cards {
+  display: flex;
+  margin: auto;
+  max-width: 920px;
+}
+.cards:nth-child(3) {
+  flex-wrap: wrap;
+}
+.cards__item {
+  max-width: 240px;
+  justify-content: space-around;
+  margin-top: 60px;
+  margin-right: 100px;
+  box-sizing: border-box;
+}
+.cards__item:nth-child(3) {
+  margin-right: 0px;
+}
+.cards__image {
+  border-radius: 50%;
+  max-width: 160px;
+  margin: 0px 40px 43px 40px;
+}
+.cards__title {
+  margin: 0;
+  padding: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cards__description {
+  margin: 0;
+  padding: 0;
+  margin-top: 16px;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
 }
 
 .digits {
