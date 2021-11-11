@@ -205,6 +205,101 @@ li {
   text-align: center;
 }
 
+.video {
+  margin-bottom: 60px;
+}
+.video__iframes {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1050px;
+  margin: 50px auto -60px auto;
+}
+.video__iframe {
+  border: none;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.oakley {
+  background-color: #f2f2f2;
+  margin-top: -60px;
+  padding: 160px 0 100px 0;
+}
+
+.feynman {
+  margin-top: -100px;
+  background-color: #f2f2f2;
+  min-height: 790px;
+  position: relative;
+}
+
+.feynman__title {
+  font-size: 120px;
+  font-weight: bold;
+  line-height: 1.15;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  max-width: 775px;
+  z-index: 1;
+}
+
+.feynman__subtitle {
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 51px;
+  margin: 70px 0 0 0;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+
+.feynman__link {
+  color: #2f80ed;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 51px;
+  position: absolute;
+  right: 48px;
+  text-decoration: none;
+  top: 50%;
+  z-index: 2;
+}
+
+.feynman__image {
+  bottom: 0;
+  max-height: 637px;
+  left: 0;
+  position: absolute;
+  max-width: 867px;
+  z-index: 0;
+}
+
+.khan__container {
+  width: 80%;
+  margin: 0 auto;
+}
+.khan__author {
+}
+.khan__title {
+}
+.khan__quote {
+}
+.khan__quote-author {
+}
+.khan__quote-author-subline {
+}
+.khan__book-container {
+  display: flex;
+}
+.khan__book-pic {
+  max-width: 620px;
+  max-height: 608px;
+  object-position: 0 50%;
+}
+.khan__buy-link {
+}
+
 .digits {
   margin: 100px auto;
 }
@@ -266,55 +361,6 @@ li {
   line-height: 1.2;
   margin: 20px auto 0 auto;
   position: relative;
-}
-
-.feynman {
-  padding-top: 100px;
-  background-color: #f2f2f2;
-  min-height: 790px;
-  position: relative;
-}
-
-.feynman__title {
-  font-size: 120px;
-  font-weight: bold;
-  line-height: 1.15;
-  margin: auto;
-  position: relative;
-  text-align: center;
-  max-width: 775px;
-  z-index: 1;
-}
-
-.feynman__subtitle {
-  font-size: 36px;
-  font-weight: normal;
-  line-height: 51px;
-  margin: 70px 0 0 0;
-  position: relative;
-  text-align: center;
-  z-index: 1;
-}
-
-.feynman__link {
-  color: #2f80ed;
-  font-size: 36px;
-  font-weight: normal;
-  line-height: 51px;
-  position: absolute;
-  right: 48px;
-  text-decoration: none;
-  top: 50%;
-  z-index: 2;
-}
-
-.feynman__image {
-  bottom: 0;
-  max-height: 637px;
-  left: 0;
-  position: absolute;
-  max-width: 867px;
-  z-index: 0;
 }
 
 /* including elements with key-value modifiers */
