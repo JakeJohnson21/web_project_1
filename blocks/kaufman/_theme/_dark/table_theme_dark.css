@@ -1,0 +1,27 @@
+.table_theme_dark {
+  z-index: 1;
+}
+
+.table__cell_theme_dark {
+  color: white;
+  margin-top: 80px;
+  max-width: 200px;
+}
+
+.table__heading_theme_dark {
+  color: white;
+}
+
+.table__text_theme_dark {
+  color: white;
+  margin: 0px;
+}
+
+.section-title_theme_dark {
+  color: white;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+  margin: 20px auto 0 auto;
+}

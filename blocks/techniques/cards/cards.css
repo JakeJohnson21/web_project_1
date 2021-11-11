@@ -1,0 +1,8 @@
+.cards {
+  display: flex;
+  margin: auto;
+  max-width: 920px;
+}
+.cards:nth-child(3) {
+  flex-wrap: wrap;
+}

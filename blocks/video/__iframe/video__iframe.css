@@ -1,0 +1,5 @@
+.video__iframe {
+  border: none;
+  overflow: hidden;
+  z-index: 1;
+}
