@@ -9,4 +9,4 @@ Thank you for taking an interest in this program.
 **Coming Early 2022:** All new features to make our site more responsive and user friendly. Adding JS to tackle many of these problems.
 12/1/21: Security patch 2.7
 
-This project was made using HTML and CSS.
+This project was made using HTML and CSS. We added animation and other media using CSS.
