@@ -5,5 +5,5 @@
   max-height: 756px;
   min-height: 600px;
   position: relative;
-  overflow-x: hidden;
+  overflow: hidden;
 }

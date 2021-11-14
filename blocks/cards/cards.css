@@ -2,6 +2,8 @@
   display: flex;
   margin: auto;
   max-width: 920px;
+  list-style-type: none;
+  padding-left: 0;
 }
 .cards:nth-child(3) {
   flex-wrap: wrap;
